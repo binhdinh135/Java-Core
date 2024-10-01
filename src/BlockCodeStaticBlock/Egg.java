@@ -29,6 +29,9 @@ public class Egg {
         System.out.println("Begin number = " + number);
         number = 4;
         System.out.println("After set at initializer block, number = " + number);
+        var test = 10;
+        test = 11;
+//        test = "hello"; // loi vi khong Wrap tu kieu String sang int
 
     }
 }
