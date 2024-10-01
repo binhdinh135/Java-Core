@@ -19,7 +19,7 @@ public class Person {
         return age;
     }
 
-    public Address getAddress() {
-        return new Address(address.getStreet(), address.getCity()); // return a copy of the address object
+    public String getAddress() {
+        return "Street: " + address.getStreet() + ", City: " + address.getCity();
     }
 }
