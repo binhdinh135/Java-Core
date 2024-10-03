@@ -21,5 +21,15 @@ public class StringExampleTest {
         s += "a";
         System.out.println(s); // 123
 
+        String x = "Dinh Cong Binh";
+        String y = new String("Dinh Cong Binh");
+        System.out.println("x == y? " + (x == y)); // false
+        System.out.println("Compare with equals between x and y: " + x.equals(y)); // true
+
+        String a = "Hello java" + "";
+        String b = "Hello java";
+        System.out.println("a == b? " + (a == b)); // true
+        System.out.println("Compare with \"==\" between a and b: " + a.equals(b)); // true
+
     }
 }
