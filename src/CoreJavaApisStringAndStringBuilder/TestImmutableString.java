@@ -1,4 +1,4 @@
-package CoreJavaApis;
+package CoreJavaApisStringAndStringBuilder;
 
 /*
 Khi một đối tượng String được tạo, nó không được phép thay đổi. String là bất biến.

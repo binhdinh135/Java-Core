@@ -1,4 +1,4 @@
-package CoreJavaApis;
+package CoreJavaApisStringAndStringBuilder;
 
 public class StringExampleTest {
 
