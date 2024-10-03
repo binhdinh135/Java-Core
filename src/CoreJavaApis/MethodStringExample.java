@@ -1,5 +1,9 @@
 package CoreJavaApis;
 
+/*
+String: la moi doi tuong khong bien doi - bat bien (Immutable)
+ */
+
 public class MethodStringExample {
     public static void main(String[] args) {
 
