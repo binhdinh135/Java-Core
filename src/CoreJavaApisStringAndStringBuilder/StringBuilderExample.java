@@ -1,4 +1,4 @@
-package CoreJavaApis;
+package CoreJavaApisStringAndStringBuilder;
 
 /*
 StringBuilder: la moi doi tuong bien doi (mutable)
@@ -22,6 +22,25 @@ public class StringBuilderExample {
 //            System.out.println("Dia chi bo nho cua" + beta + " - la: " + System.identityHashCode(beta));
         }
         System.out.println(beta);
+
+        System.out.println("-------------- example 2 --------------");
+
+        StringBuilder a = new StringBuilder("abc");
+        StringBuilder b = a.append("de");
+        b = b.append("f").append("g");
+        System.out.println("Dia chi bo nho cua" + a + " - la: " + System.identityHashCode(a));
+        System.out.println("a = " + a);
+        System.out.println("Dia chi bo nho cua" + b + " - la: " + System.identityHashCode(b));
+        System.out.println("b = " + b);
+
+        // Khoi tao StringBuilder:
+        StringBuilder sb1 = new StringBuilder();
+        StringBuilder sb2 = new StringBuilder("animal");
+        StringBuilder sb3 = new StringBuilder(10);
+        sb3.append(1);
+        sb3.append(10000);
+        sb3.append(" hello");
+        System.out.println(sb3); // 10000 hello
 
     }
 }

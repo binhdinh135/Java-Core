@@ -1,4 +1,4 @@
-package CoreJavaApis;
+package CoreJavaApisStringAndStringBuilder;
 
 /*
 String: la moi doi tuong khong bien doi - bat bien (Immutable)

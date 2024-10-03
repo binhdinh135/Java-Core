@@ -1,4 +1,4 @@
-package CoreJavaApis;
+package CoreJavaApisStringAndStringBuilder;
 
 public class MethodStringExample2 {
     public static void main(String[] args) {
