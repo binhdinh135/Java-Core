@@ -31,5 +31,17 @@ public class StringExampleTest {
         System.out.println("a == b? " + (a == b)); // true
         System.out.println("Compare with \"==\" between a and b: " + a.equals(b)); // true
 
+        String name = "Hello World";
+        String name2 = new String("Hello World").intern();
+        System.out.println("name == name2? " + (name2 == name2));
+
+        String first = "rat" + 1;
+        String second = "r" + "a" + "t" + "1";
+        String third = "r" + "a" + "t" + new String("1");
+        System.out.println("first == second? " + (first == second));
+        System.out.println("first == second.intern()? " + (first == second.intern()));
+        System.out.println("first == third? " + (first == third));
+        System.out.println("first == third.intern()? " + (first == third.intern()));
+
     }
 }
